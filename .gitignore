@@ -1,0 +1,40 @@
+# Visual Studio
+.vs/
+x64/
+x86/
+Debug/
+Release/
+ipch/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# CMake и результаты сборки
+build/
+cmake-build-*/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exe
+
+# Результаты расчётов (генерируются программами)
+results_*.txt
+elem_results_*.txt
+*.dat
+
+# Рабочая копия сетки (программа читает mesh1.txt; исходные сетки лежат в meshes/)
+mesh1.txt
+
+# Файлы Tecplot (абсолютные пути, платная программа)
+*.lay
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# ОС
+Thumbs.db
+.DS_Store

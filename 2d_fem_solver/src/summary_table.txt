@@ -1,0 +1,10 @@
+parameter value unit
+u0c_inner -2.798420827e-06 m
+u0c_outer -2.798420822e-05 m
+Delta_h 2.518578739e-05 m
+Delta_an 2.52e-05 m
+p_contact_average 221501127.1 Pa
+p_formula_Delta_h 221359459.5 Pa
+p_formula_Delta_an 221484375 Pa
+error_p_vs_Delta_h 0.06399890596 percent
+error_p_vs_Delta_an 0.007563566128 percent
