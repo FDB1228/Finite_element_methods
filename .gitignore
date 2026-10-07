@@ -10,7 +10,7 @@ ipch/
 *.VC.db
 *.VC.opendb
 
-# CMake и результаты сборки
+# CMake / сборка
 build/
 cmake-build-*/
 *.obj
@@ -19,22 +19,34 @@ cmake-build-*/
 *.ilk
 *.exe
 
-# Результаты расчётов (генерируются программами)
+# Результаты расчётов (создаются программами)
+results.txt
+nodal_results.txt
+results_unsteady.dat
 results_*.txt
 elem_results_*.txt
-*.dat
-
-# Рабочая копия сетки (программа читает mesh1.txt; исходные сетки лежат в meshes/)
-mesh1.txt
-
-# Файлы Tecplot (абсолютные пути, платная программа)
 *.lay
+Heat_eq_fem/src/mesh1.txt
+
+# Сетки и расчёты, созданные скриптами из tools/
+Elasticity_fem/meshes/generated/
+Diploma_fem/meshes/generated/
+
+# Файлы, которые пишет программа Diploma_fem (рабочая папка запуска)
+inner_results.txt
+outer_results.txt
+stress_profile_phi0.txt
+contact_pressure.txt
+summary_table.txt
+result_report.txt
+tecplot_*.dat
 
 # Python
 __pycache__/
 *.pyc
 .venv/
 
-# ОС
-Thumbs.db
+# ОС и редакторы
 .DS_Store
+Thumbs.db
+desktop.ini
